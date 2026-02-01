@@ -18,11 +18,25 @@
     combos {
         compatible = "zmk,combos";
 
+        /* ESC : key-positions 0 + 1 */
+        esc_01 {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
+
+        /* CapsLock : key-positions 10 + 11 */
+        caps_1011 {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <10 11>;
+        };
+
+        /* Scroll layer */
         scroll {
             bindings = <&mo 5>;
             key-positions = <27 28>;
         };
 
+        /* Middle click */
         mb3 {
             bindings = <&mkp MB3>;
             key-positions = <19 18>;
@@ -34,9 +48,6 @@
             compatible = "zmk,behavior-mouse-key";
             label = "RIGHT_CLICK";
             #binding-cells = <0>;
-
-            // 右クリックは通常 MB2 に対応（ZMKの標準定義）
-
             bindings = <&mkp MB2>;
         };
     };
