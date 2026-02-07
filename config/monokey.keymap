@@ -42,9 +42,9 @@
             key-positions = <19 18>;
         };
 
-        /* Set default layer (layer 0) : key-positions 12 + 13 + 16 + 17 */
-        df_12131617 {
-            bindings = <&df 0>;
+        /* Go to layer 0 (recovery) : key-positions 12 + 13 + 16 + 17 */
+        to_12131617 {
+            bindings = <&to 0>;
             key-positions = <12 13 16 17>;
         };
     };
