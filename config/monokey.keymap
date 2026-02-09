@@ -60,9 +60,15 @@
             key-positions = <20 17>;
         };
 
-        /* Zenkaku/Hankaku : key-positions 0 + 10 */
+        /*
+         * Zenkaku/Hankaku : key-positions 0 + 10
+         * NOTE: &kp KANJI が未定義でビルドエラーになり得るため、
+         *       まずは確実に存在する GRAVE に置き換え（暫定）。
+         *       「全角/半角」動作にしたい場合は、ZMK側で定義されている
+         *       対応キーコードに差し替えてください。
+         */
         zenkaku_hankaku_0010 {
-            bindings = <&kp KANJI>;
+            bindings = <&kp GRAVE>;
             key-positions = <0 10>;
         };
     };
