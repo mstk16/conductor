@@ -27,7 +27,7 @@
         /* CapsLock : key-positions 10 + 11 */
         caps_1011 {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <5 25>;
+            key-positions = <4 24>;
         };
 
         /* Scroll layer */
@@ -46,12 +46,6 @@
         to_12131617 {
             bindings = <&to 0>;
             key-positions = <12 13 16 17>;
-        };
-
-        /* GUI key (Win/Command) : key-positions 31 + 32 + 33 */
-        gui_313233 {
-            bindings = <&kp LGUI>;
-            key-positions = <31 32 33>;
         };
 
         /* LANG1 : key-positions 20 + 17 */
