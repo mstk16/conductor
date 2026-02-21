@@ -77,18 +77,20 @@
         };
     };
 
+    macros {
+        paren: paren_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
+        };
+    };
+
     behaviors {
         right_click: right_click_behavior {
             compatible = "zmk,behavior-mouse-key";
             label = "RIGHT_CLICK";
             #binding-cells = <0>;
             bindings = <&mkp MB2>;
-        };
-
-        paren: paren_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
         };
     };
 
