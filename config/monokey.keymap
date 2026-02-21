@@ -18,59 +18,46 @@
     combos {
         compatible = "zmk,combos";
 
-        /* ESC : key-positions 0 + 1 */
         esc_01 {
             bindings = <&kp ESC>;
             key-positions = <0 1>;
         };
 
-        /* CapsLock : key-positions 4 + 24 */
         caps_0424 {
             bindings = <&kp CAPSLOCK>;
             key-positions = <4 24>;
         };
 
-        /* Scroll layer */
         scroll {
             bindings = <&mo 5>;
             key-positions = <27 28>;
         };
 
-        /* Middle click */
         mb3 {
             bindings = <&mkp MB3>;
             key-positions = <19 18>;
         };
 
-        /* Go to layer 0 (recovery) : key-positions 12 + 13 + 16 + 17 */
         to_12131617 {
             bindings = <&to 0>;
             key-positions = <12 13 16 17>;
         };
 
-        /* LANG1 : key-positions 20 + 17 */
         lang1_2017 {
             bindings = <&kp LANG1>;
             key-positions = <20 17>;
         };
 
-        /*
-         * Zenkaku/Hankaku : key-positions 0 + 10
-         * NOTE: &kp KANJI が未定義でビルドエラーになり得るため、
-         *       まずは確実に存在する GRAVE に置き換え（暫定）。
-         */
         zenkaku_hankaku_0010 {
             bindings = <&kp GRAVE>;
             key-positions = <0 10>;
         };
 
-        /* Sticky Layer 6 (bluetooth,boot) : key-positions 30 + 31 */
         sticky_bt_3031 {
             bindings = <&sl 6>;
             key-positions = <30 31>;
         };
 
-        /* Paren macro : key-positions 8 + 9 */
         paren_combo {
             bindings = <&paren>;
             key-positions = <8 9>;
