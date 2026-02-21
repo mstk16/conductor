@@ -27,7 +27,7 @@
         /* CapsLock : key-positions 10 + 11 */
         caps_1011 {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <10 11>;
+            key-positions = <5 25>;
         };
 
         /* Scroll layer */
