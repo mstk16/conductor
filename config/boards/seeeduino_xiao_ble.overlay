@@ -1,0 +1,14 @@
+/ {
+    gpio_leds: gpio_leds {
+        compatible = "gpio-leds";
+
+        led_red: led_red {
+            gpios = <&gpio0 0 GPIO_ACTIVE_HIGH>;
+            label = "dummy_red";
+        };
+    };
+
+    aliases {
+        led-red = &led_red;
+    };
+};
