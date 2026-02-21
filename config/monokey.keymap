@@ -24,8 +24,8 @@
             key-positions = <0 1>;
         };
 
-        /* CapsLock : key-positions 10 + 11 */
-        caps_1011 {
+        /* CapsLock : key-positions 4 + 24 */
+        caps_0424 {
             bindings = <&kp CAPSLOCK>;
             key-positions = <4 24>;
         };
