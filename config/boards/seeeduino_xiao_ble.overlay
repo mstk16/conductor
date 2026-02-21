@@ -6,9 +6,21 @@
             gpios = <&gpio0 0 GPIO_ACTIVE_HIGH>;
             label = "dummy_red";
         };
+
+        led_green: led_green {
+            gpios = <&gpio0 0 GPIO_ACTIVE_HIGH>;
+            label = "dummy_green";
+        };
+
+        led_blue: led_blue {
+            gpios = <&gpio0 0 GPIO_ACTIVE_HIGH>;
+            label = "dummy_blue";
+        };
     };
 
     aliases {
         led-red = &led_red;
+        led-green = &led_green;
+        led-blue = &led_blue;
     };
 };
