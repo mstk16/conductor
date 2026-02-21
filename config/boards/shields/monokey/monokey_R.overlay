@@ -83,6 +83,6 @@
     };
 
     aliases {
-        led_red = &led_red;
+        led-red = &led_red;
     };
 };
