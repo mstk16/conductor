@@ -2,4 +2,4 @@
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.1.6
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
