@@ -24,6 +24,11 @@
             key-positions = <0 1>;
         };
 
+        gui {
+            bindings = <&kp LGUI>;
+            key-positions = <38 39>;
+        };
+
         mb3 {
             bindings = <&mkp MB3>;
             key-positions = <19 18>;
