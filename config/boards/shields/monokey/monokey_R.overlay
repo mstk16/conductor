@@ -1,5 +1,6 @@
 #include "monokey.dtsi"
 #include <input/processors.dtsi>
+#include <input/processors/zmk-input-processor-keybind.dtsi>
 
 &default_transform {
     col-offset = <6>;
@@ -36,6 +37,31 @@
         device = <&trackball>;
         input-processors = <&zip_temp_layer 4 100000>; // AML
 
+    };
+
+    // 仮想デスクトップ移動: K+L 同時押し（レイヤー7）中のみ動作
+    trackball_virt_desk_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+        layers = <7>;
+        input-processors = <&trackball_virt_desk>;
+    };
+
+    trackball_virt_desk: trackball_virt_desk {
+        compatible = "zmk,input-processor-keybind";
+        #input-processor-cells = <0>;
+        track_remainders;
+        // 順序: RIGHT(X+), LEFT(X-), DOWN(Y+), UP(Y-)
+        bindings =
+            <&kp LC(LG(RIGHT))>,  // 右に動かす → 右デスクトップへ
+            <&kp LC(LG(LEFT))>,   // 左に動かす → 左デスクトップへ
+            <&none>,              // Y軸は使わない
+            <&none>;
+        mode = <1>;         // 4方向DPad（左右のみ使用）
+        tick = <30>;        // この単位ごとに1回発火（低いほど高感度）
+        wait-ms = <200>;    // 切り替えアニメーション中に次が発火しないよう余裕を持つ
+        tap-ms = <30>;
+        threshold = <20>;   // 誤爆防止デッドゾーン
     };
 
     chg_stat: chg_stat {
