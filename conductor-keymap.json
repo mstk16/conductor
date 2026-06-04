@@ -1,0 +1,2600 @@
+{
+  "version": 2,
+  "name": "Conductor Monokey",
+  "keyboard": "conductor-monokey",
+  "createdAt": "2026-06-04T17:48:45.061Z",
+  "updatedAt": "2026-06-04T17:48:45.061Z",
+  "layers": [
+    {
+      "id": 0,
+      "name": "Layer 0",
+      "color": "#B87333",
+      "bindings": {
+        "L00": {
+          "keyCode": "Q",
+          "label": "Q",
+          "type": "basic"
+        },
+        "L01": {
+          "keyCode": "W",
+          "label": "W",
+          "type": "basic"
+        },
+        "L02": {
+          "keyCode": "E",
+          "label": "E",
+          "type": "basic"
+        },
+        "L03": {
+          "keyCode": "R",
+          "label": "R",
+          "type": "basic"
+        },
+        "L04": {
+          "keyCode": "T",
+          "label": "T",
+          "type": "basic"
+        },
+        "R00": {
+          "keyCode": "Y",
+          "label": "Y",
+          "type": "basic"
+        },
+        "R01": {
+          "keyCode": "U",
+          "label": "U",
+          "type": "basic"
+        },
+        "R02": {
+          "keyCode": "I",
+          "label": "I",
+          "type": "basic"
+        },
+        "R03": {
+          "keyCode": "O",
+          "label": "O",
+          "type": "basic"
+        },
+        "R04": {
+          "keyCode": "P",
+          "label": "P",
+          "type": "basic"
+        },
+        "L10": {
+          "keyCode": "A",
+          "label": "A",
+          "type": "basic"
+        },
+        "L11": {
+          "keyCode": "S",
+          "label": "S",
+          "type": "basic"
+        },
+        "L12": {
+          "keyCode": "D",
+          "label": "D",
+          "type": "basic"
+        },
+        "L13": {
+          "keyCode": "F",
+          "label": "F",
+          "type": "basic"
+        },
+        "L14": {
+          "keyCode": "G",
+          "label": "G",
+          "type": "basic"
+        },
+        "R10": {
+          "keyCode": "H",
+          "label": "H",
+          "type": "basic"
+        },
+        "R11": {
+          "keyCode": "J",
+          "label": "J",
+          "type": "basic"
+        },
+        "R12": {
+          "keyCode": "K",
+          "label": "K",
+          "type": "basic"
+        },
+        "R13": {
+          "keyCode": "MINUS",
+          "label": "-",
+          "type": "basic"
+        },
+        "R14": {
+          "keyCode": "L",
+          "label": "L",
+          "type": "basic"
+        },
+        "L20": {
+          "keyCode": "Z",
+          "label": "Z",
+          "type": "basic"
+        },
+        "L21": {
+          "keyCode": "X",
+          "label": "X",
+          "type": "basic"
+        },
+        "L22": {
+          "keyCode": "C",
+          "label": "C",
+          "type": "basic"
+        },
+        "L23": {
+          "keyCode": "V",
+          "label": "V",
+          "type": "basic"
+        },
+        "L24": {
+          "keyCode": "B",
+          "label": "B",
+          "type": "basic"
+        },
+        "R20": {
+          "keyCode": "N",
+          "label": "N",
+          "type": "basic"
+        },
+        "R21": {
+          "keyCode": "M",
+          "label": "M",
+          "type": "basic"
+        },
+        "R22": {
+          "keyCode": "mkp MB1",
+          "label": "MB1",
+          "type": "basic"
+        },
+        "R23": {
+          "keyCode": "mkp MB2",
+          "label": "MB2",
+          "type": "basic"
+        },
+        "R24": {
+          "keyCode": "RSHIFT(LS(FSLH))",
+          "label": "LS(FSLH)",
+          "type": "mod-tap",
+          "holdAction": "RSHIFT",
+          "tapAction": "LS(FSLH)"
+        },
+        "L30": {
+          "keyCode": "LSHIFT",
+          "label": "L Shift",
+          "type": "basic"
+        },
+        "L31": {
+          "keyCode": "LGUI",
+          "label": "L GUI",
+          "type": "basic"
+        },
+        "L32": {
+          "keyCode": "LALT",
+          "label": "L Alt",
+          "type": "basic"
+        },
+        "L33": {
+          "keyCode": "LCTRL(BSPC)",
+          "label": "Bksp",
+          "type": "mod-tap",
+          "holdAction": "LCTRL",
+          "tapAction": "BSPC"
+        },
+        "L34": {
+          "keyCode": "SPACE",
+          "label": "Space",
+          "type": "basic"
+        },
+        "L35": {
+          "keyCode": "LT(1, TAB)",
+          "label": "Tab",
+          "type": "layer-tap",
+          "holdAction": "Layer 1",
+          "tapAction": "TAB"
+        },
+        "R30": {
+          "keyCode": "LT(2, BSPC)",
+          "label": "Bksp",
+          "type": "layer-tap",
+          "holdAction": "Layer 2",
+          "tapAction": "BSPC"
+        },
+        "R31": {
+          "keyCode": "LT(3, ENTER)",
+          "label": "Enter",
+          "type": "layer-tap",
+          "holdAction": "Layer 3",
+          "tapAction": "ENTER"
+        },
+        "R32": {
+          "keyCode": "F12",
+          "label": "F12",
+          "type": "basic"
+        },
+        "R33": {
+          "keyCode": "FSLH",
+          "label": "/",
+          "type": "basic"
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "Layer 1",
+      "color": "#58A6FF",
+      "bindings": {
+        "L00": {
+          "keyCode": "N1",
+          "label": "1",
+          "type": "basic"
+        },
+        "L01": {
+          "keyCode": "N2",
+          "label": "2",
+          "type": "basic"
+        },
+        "L02": {
+          "keyCode": "N3",
+          "label": "3",
+          "type": "basic"
+        },
+        "L03": {
+          "keyCode": "N4",
+          "label": "4",
+          "type": "basic"
+        },
+        "L04": {
+          "keyCode": "N5",
+          "label": "5",
+          "type": "basic"
+        },
+        "R00": {
+          "keyCode": "LS(KP_PLUS)",
+          "label": "S+KP_PLUS",
+          "type": "basic",
+          "modifiers": [
+            "LSHIFT"
+          ]
+        },
+        "R01": {
+          "keyCode": "MINUS",
+          "label": "-",
+          "type": "basic"
+        },
+        "R02": {
+          "keyCode": "KP_MULTIPLY",
+          "label": "KP_MULTIPLY",
+          "type": "basic"
+        },
+        "R03": {
+          "keyCode": "FSLH",
+          "label": "/",
+          "type": "basic"
+        },
+        "R04": {
+          "keyCode": "RPAR",
+          "label": ")",
+          "type": "basic"
+        },
+        "L10": {
+          "keyCode": "N6",
+          "label": "6",
+          "type": "basic"
+        },
+        "L11": {
+          "keyCode": "N7",
+          "label": "7",
+          "type": "basic"
+        },
+        "L12": {
+          "keyCode": "N8",
+          "label": "8",
+          "type": "basic"
+        },
+        "L13": {
+          "keyCode": "N9",
+          "label": "9",
+          "type": "basic"
+        },
+        "L14": {
+          "keyCode": "N0",
+          "label": "0",
+          "type": "basic"
+        },
+        "R10": {
+          "keyCode": "MINUS",
+          "label": "-",
+          "type": "basic"
+        },
+        "R11": {
+          "keyCode": "BT_SEL 0",
+          "label": "BT 0",
+          "type": "basic"
+        },
+        "R12": {
+          "keyCode": "BT_SEL 1",
+          "label": "BT 1",
+          "type": "basic"
+        },
+        "R13": {
+          "keyCode": "BT_SEL 2",
+          "label": "BT 2",
+          "type": "basic"
+        },
+        "R14": {
+          "keyCode": "BT_SEL 3",
+          "label": "BT 3",
+          "type": "basic"
+        },
+        "L20": {
+          "keyCode": "LA(GRAVE)",
+          "label": "A+`",
+          "type": "basic",
+          "modifiers": [
+            "LALT"
+          ]
+        },
+        "L21": {
+          "keyCode": "DOT",
+          "label": ".",
+          "type": "basic"
+        },
+        "L22": {
+          "keyCode": "COMMA",
+          "label": ",",
+          "type": "basic"
+        },
+        "L23": {
+          "keyCode": "EQUAL",
+          "label": "=",
+          "type": "basic"
+        },
+        "L24": {
+          "keyCode": "LS(SEMI)",
+          "label": "S+;",
+          "type": "basic",
+          "modifiers": [
+            "LSHIFT"
+          ]
+        },
+        "R20": {
+          "keyCode": "BT_CLR",
+          "label": "BT Clr",
+          "type": "basic"
+        },
+        "R21": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R22": {
+          "keyCode": "SEMI",
+          "label": ";",
+          "type": "basic"
+        },
+        "R23": {
+          "keyCode": "SQT",
+          "label": "'",
+          "type": "basic"
+        },
+        "R24": {
+          "keyCode": "GRAVE",
+          "label": "`",
+          "type": "basic"
+        },
+        "L30": {
+          "keyCode": "ESC",
+          "label": "Esc",
+          "type": "basic"
+        },
+        "L31": {
+          "keyCode": "KP_PLUS",
+          "label": "KP_PLUS",
+          "type": "basic"
+        },
+        "L32": {
+          "keyCode": "MINUS",
+          "label": "-",
+          "type": "basic"
+        },
+        "L33": {
+          "keyCode": "KP_MULTIPLY",
+          "label": "KP_MULTIPLY",
+          "type": "basic"
+        },
+        "L34": {
+          "keyCode": "FSLH",
+          "label": "/",
+          "type": "basic"
+        },
+        "L35": {
+          "keyCode": "LT(1, TAB)",
+          "label": "Tab",
+          "type": "layer-tap",
+          "holdAction": "Layer 1",
+          "tapAction": "TAB"
+        },
+        "R30": {
+          "keyCode": "BSPC",
+          "label": "Bksp",
+          "type": "basic"
+        },
+        "R31": {
+          "keyCode": "LT(3, ENTER)",
+          "label": "Enter",
+          "type": "layer-tap",
+          "holdAction": "Layer 3",
+          "tapAction": "ENTER"
+        },
+        "R32": {
+          "keyCode": "BT_SEL 2",
+          "label": "BT 2",
+          "type": "basic"
+        },
+        "R33": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Layer 2",
+      "color": "#3FB950",
+      "bindings": {
+        "L00": {
+          "keyCode": "LS(F1)",
+          "label": "S+F1",
+          "type": "basic",
+          "modifiers": [
+            "LSHIFT"
+          ]
+        },
+        "L01": {
+          "keyCode": "F2",
+          "label": "F2",
+          "type": "basic"
+        },
+        "L02": {
+          "keyCode": "F3",
+          "label": "F3",
+          "type": "basic"
+        },
+        "L03": {
+          "keyCode": "F4",
+          "label": "F4",
+          "type": "basic"
+        },
+        "L04": {
+          "keyCode": "F5",
+          "label": "F5",
+          "type": "basic"
+        },
+        "R00": {
+          "keyCode": "F6",
+          "label": "F6",
+          "type": "basic"
+        },
+        "R01": {
+          "keyCode": "F7",
+          "label": "F7",
+          "type": "basic"
+        },
+        "R02": {
+          "keyCode": "F8",
+          "label": "F8",
+          "type": "basic"
+        },
+        "R03": {
+          "keyCode": "F9",
+          "label": "F9",
+          "type": "basic"
+        },
+        "R04": {
+          "keyCode": "F10",
+          "label": "F10",
+          "type": "basic"
+        },
+        "L10": {
+          "keyCode": "EXCL",
+          "label": "!",
+          "type": "basic"
+        },
+        "L11": {
+          "keyCode": "AT",
+          "label": "@",
+          "type": "basic"
+        },
+        "L12": {
+          "keyCode": "HASH",
+          "label": "#",
+          "type": "basic"
+        },
+        "L13": {
+          "keyCode": "DLLR",
+          "label": "$",
+          "type": "basic"
+        },
+        "L14": {
+          "keyCode": "PRCNT",
+          "label": "%",
+          "type": "basic"
+        },
+        "R10": {
+          "keyCode": "C_VOL_UP",
+          "label": "Vol+",
+          "type": "basic"
+        },
+        "R11": {
+          "keyCode": "N5",
+          "label": "5",
+          "type": "basic"
+        },
+        "R12": {
+          "keyCode": "HOME",
+          "label": "Home",
+          "type": "basic"
+        },
+        "R13": {
+          "keyCode": "PLUS",
+          "label": "+",
+          "type": "basic"
+        },
+        "R14": {
+          "keyCode": "F11",
+          "label": "F11",
+          "type": "basic"
+        },
+        "L20": {
+          "keyCode": "CARET",
+          "label": "^",
+          "type": "basic"
+        },
+        "L21": {
+          "keyCode": "AMPS",
+          "label": "&",
+          "type": "basic"
+        },
+        "L22": {
+          "keyCode": "STAR",
+          "label": "*",
+          "type": "basic"
+        },
+        "L23": {
+          "keyCode": "LPAR",
+          "label": "(",
+          "type": "basic"
+        },
+        "L24": {
+          "keyCode": "RPAR",
+          "label": ")",
+          "type": "basic"
+        },
+        "R20": {
+          "keyCode": "C_VOL_DN",
+          "label": "Vol-",
+          "type": "basic"
+        },
+        "R21": {
+          "keyCode": "N8",
+          "label": "8",
+          "type": "basic"
+        },
+        "R22": {
+          "keyCode": "END",
+          "label": "End",
+          "type": "basic"
+        },
+        "R23": {
+          "keyCode": "STAR",
+          "label": "*",
+          "type": "basic"
+        },
+        "R24": {
+          "keyCode": "F12",
+          "label": "F12",
+          "type": "basic"
+        },
+        "L30": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L31": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L32": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L33": {
+          "keyCode": "LANG2",
+          "label": "英数",
+          "type": "basic"
+        },
+        "L34": {
+          "keyCode": "0x70094",
+          "label": "0x70094",
+          "type": "basic"
+        },
+        "L35": {
+          "keyCode": "LC(I)",
+          "label": "C+I",
+          "type": "basic",
+          "modifiers": [
+            "LCTRL"
+          ]
+        },
+        "R30": {
+          "keyCode": "LT(2, BSPC)",
+          "label": "Bksp",
+          "type": "layer-tap",
+          "holdAction": "Layer 2",
+          "tapAction": "BSPC"
+        },
+        "R31": {
+          "keyCode": "N0",
+          "label": "0",
+          "type": "basic"
+        },
+        "R32": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R33": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Layer 3",
+      "color": "#D29922",
+      "bindings": {
+        "L00": {
+          "keyCode": "F1",
+          "label": "F1",
+          "type": "basic"
+        },
+        "L01": {
+          "keyCode": "F2",
+          "label": "F2",
+          "type": "basic"
+        },
+        "L02": {
+          "keyCode": "F3",
+          "label": "F3",
+          "type": "basic"
+        },
+        "L03": {
+          "keyCode": "F4",
+          "label": "F4",
+          "type": "basic"
+        },
+        "L04": {
+          "keyCode": "F5",
+          "label": "F5",
+          "type": "basic"
+        },
+        "R00": {
+          "keyCode": "F6",
+          "label": "F6",
+          "type": "basic"
+        },
+        "R01": {
+          "keyCode": "F7",
+          "label": "F7",
+          "type": "basic"
+        },
+        "R02": {
+          "keyCode": "F8",
+          "label": "F8",
+          "type": "basic"
+        },
+        "R03": {
+          "keyCode": "F9",
+          "label": "F9",
+          "type": "basic"
+        },
+        "R04": {
+          "keyCode": "F10",
+          "label": "F10",
+          "type": "basic"
+        },
+        "L10": {
+          "keyCode": "EXCL",
+          "label": "!",
+          "type": "basic"
+        },
+        "L11": {
+          "keyCode": "AT",
+          "label": "@",
+          "type": "basic"
+        },
+        "L12": {
+          "keyCode": "HASH",
+          "label": "#",
+          "type": "basic"
+        },
+        "L13": {
+          "keyCode": "DLLR",
+          "label": "$",
+          "type": "basic"
+        },
+        "L14": {
+          "keyCode": "PRCNT",
+          "label": "%",
+          "type": "basic"
+        },
+        "R10": {
+          "keyCode": "LC(A)",
+          "label": "C+A",
+          "type": "basic",
+          "modifiers": [
+            "LCTRL"
+          ]
+        },
+        "R11": {
+          "keyCode": "COMMA",
+          "label": ",",
+          "type": "basic"
+        },
+        "R12": {
+          "keyCode": "UP",
+          "label": "Up",
+          "type": "basic"
+        },
+        "R13": {
+          "keyCode": "DOT",
+          "label": ".",
+          "type": "basic"
+        },
+        "R14": {
+          "keyCode": "LC(E)",
+          "label": "C+E",
+          "type": "basic",
+          "modifiers": [
+            "LCTRL"
+          ]
+        },
+        "L20": {
+          "keyCode": "CARET",
+          "label": "^",
+          "type": "basic"
+        },
+        "L21": {
+          "keyCode": "AMPS",
+          "label": "&",
+          "type": "basic"
+        },
+        "L22": {
+          "keyCode": "STAR",
+          "label": "*",
+          "type": "basic"
+        },
+        "L23": {
+          "keyCode": "LPAR",
+          "label": "(",
+          "type": "basic"
+        },
+        "L24": {
+          "keyCode": "RPAR",
+          "label": ")",
+          "type": "basic"
+        },
+        "R20": {
+          "keyCode": "C_PREV",
+          "label": "Prev",
+          "type": "basic"
+        },
+        "R21": {
+          "keyCode": "LEFT",
+          "label": "Left",
+          "type": "basic"
+        },
+        "R22": {
+          "keyCode": "DOWN",
+          "label": "Down",
+          "type": "basic"
+        },
+        "R23": {
+          "keyCode": "RIGHT",
+          "label": "Right",
+          "type": "basic"
+        },
+        "R24": {
+          "keyCode": "C_NEXT",
+          "label": "Next",
+          "type": "basic"
+        },
+        "L30": {
+          "keyCode": "LCTRL",
+          "label": "L Ctrl",
+          "type": "basic"
+        },
+        "L31": {
+          "keyCode": "LSHIFT",
+          "label": "L Shift",
+          "type": "basic"
+        },
+        "L32": {
+          "keyCode": "LALT",
+          "label": "L Alt",
+          "type": "basic"
+        },
+        "L33": {
+          "keyCode": "LANG2",
+          "label": "英数",
+          "type": "basic"
+        },
+        "L34": {
+          "keyCode": "LANG1",
+          "label": "かな",
+          "type": "basic"
+        },
+        "L35": {
+          "keyCode": "LC(I)",
+          "label": "C+I",
+          "type": "basic",
+          "modifiers": [
+            "LCTRL"
+          ]
+        },
+        "R30": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R31": {
+          "keyCode": "LT(3, ENTER)",
+          "label": "Enter",
+          "type": "layer-tap",
+          "holdAction": "Layer 3",
+          "tapAction": "ENTER"
+        },
+        "R32": {
+          "keyCode": "C_BRI_DN",
+          "label": "Bri-",
+          "type": "basic"
+        },
+        "R33": {
+          "keyCode": "C_BRI_UP",
+          "label": "Bri+",
+          "type": "basic"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Layer 4",
+      "color": "#F778BA",
+      "bindings": {
+        "L00": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L01": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L02": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L03": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L04": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R00": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R01": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R02": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R03": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R04": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L10": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L11": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L12": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L13": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L14": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R10": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R11": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R12": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R13": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R14": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L20": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L21": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L22": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L23": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L24": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R20": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R21": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R22": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R23": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R24": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L30": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L31": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L32": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L33": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L34": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L35": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R30": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R31": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R32": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R33": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Layer 5",
+      "color": "#A371F7",
+      "bindings": {
+        "L00": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L01": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L02": {
+          "keyCode": "NONE",
+          "label": "",
+          "type": "none"
+        },
+        "L03": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L04": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R00": {
+          "keyCode": "NONE",
+          "label": "",
+          "type": "none"
+        },
+        "R01": {
+          "keyCode": "NONE",
+          "label": "",
+          "type": "none"
+        },
+        "R02": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R03": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R04": {
+          "keyCode": "NONE",
+          "label": "",
+          "type": "none"
+        },
+        "L10": {
+          "keyCode": "NONE",
+          "label": "",
+          "type": "none"
+        },
+        "L11": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L12": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L13": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L14": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R10": {
+          "keyCode": "NONE",
+          "label": "",
+          "type": "none"
+        },
+        "R11": {
+          "keyCode": "NONE",
+          "label": "",
+          "type": "none"
+        },
+        "R12": {
+          "keyCode": "NONE",
+          "label": "",
+          "type": "none"
+        },
+        "R13": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R14": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L20": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L21": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L22": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L23": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L24": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R20": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R21": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R22": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R23": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R24": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L30": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L31": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L32": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L33": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L34": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L35": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R30": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R31": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R32": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R33": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "Layer 6",
+      "color": "#FF7B72",
+      "bindings": {
+        "L00": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L01": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L02": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L03": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L04": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R00": {
+          "keyCode": "BT_SEL 0",
+          "label": "BT 0",
+          "type": "basic"
+        },
+        "R01": {
+          "keyCode": "BT_SEL 1",
+          "label": "BT 1",
+          "type": "basic"
+        },
+        "R02": {
+          "keyCode": "BT_SEL 2",
+          "label": "BT 2",
+          "type": "basic"
+        },
+        "R03": {
+          "keyCode": "BT_SEL 3",
+          "label": "BT 3",
+          "type": "basic"
+        },
+        "R04": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L10": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L11": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L12": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L13": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L14": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R10": {
+          "keyCode": "BT_CMD_5",
+          "label": "BT?",
+          "type": "basic"
+        },
+        "R11": {
+          "keyCode": "BT_CMD_5",
+          "label": "BT?",
+          "type": "basic"
+        },
+        "R12": {
+          "keyCode": "BT_CMD_5",
+          "label": "BT?",
+          "type": "basic"
+        },
+        "R13": {
+          "keyCode": "BT_CMD_5",
+          "label": "BT?",
+          "type": "basic"
+        },
+        "R14": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L20": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L21": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L22": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L23": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L24": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R20": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R21": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R22": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R23": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R24": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L30": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L31": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L32": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L33": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L34": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L35": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R30": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R31": {
+          "keyCode": "BOOTLOADER",
+          "label": "Boot",
+          "type": "basic"
+        },
+        "R32": {
+          "keyCode": "BT_CLR",
+          "label": "BT Clr",
+          "type": "basic"
+        },
+        "R33": {
+          "keyCode": "BT_CLR_ALL",
+          "label": "BT All",
+          "type": "basic"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "Layer 7",
+      "color": "#79C0FF",
+      "bindings": {
+        "L00": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L01": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L02": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L03": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L04": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R00": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R01": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R02": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R03": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R04": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L10": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L11": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L12": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L13": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L14": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R10": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R11": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R12": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R13": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R14": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L20": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L21": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L22": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L23": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L24": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R20": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R21": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R22": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R23": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R24": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L30": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L31": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L32": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L33": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L34": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L35": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R30": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R31": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R32": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R33": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "Layer 8",
+      "color": "#7EE787",
+      "bindings": {
+        "L00": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L01": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L02": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L03": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L04": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R00": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R01": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R02": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R03": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R04": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L10": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L11": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L12": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L13": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L14": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R10": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R11": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R12": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R13": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R14": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L20": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L21": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L22": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L23": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L24": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R20": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R21": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R22": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R23": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R24": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L30": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L31": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L32": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L33": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L34": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L35": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R30": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R31": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R32": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R33": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "Layer 9",
+      "color": "#FFA657",
+      "bindings": {
+        "L00": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L01": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L02": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L03": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L04": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R00": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R01": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R02": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R03": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R04": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L10": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L11": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L12": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L13": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L14": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R10": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R11": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R12": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R13": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R14": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L20": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L21": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L22": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L23": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L24": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R20": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R21": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R22": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R23": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R24": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L30": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L31": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L32": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L33": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L34": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L35": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R30": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R31": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R32": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R33": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "Layer 10",
+      "color": "#B87333",
+      "bindings": {
+        "L00": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L01": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L02": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L03": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L04": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R00": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R01": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R02": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R03": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R04": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L10": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L11": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L12": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L13": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L14": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R10": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R11": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R12": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R13": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R14": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L20": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L21": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L22": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L23": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L24": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R20": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R21": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R22": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R23": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R24": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L30": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L31": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L32": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L33": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L34": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L35": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R30": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R31": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R32": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R33": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": "Layer 11",
+      "color": "#58A6FF",
+      "bindings": {
+        "L00": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L01": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L02": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L03": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L04": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R00": {
+          "keyCode": "BT_SEL 0",
+          "label": "BT 0",
+          "type": "basic"
+        },
+        "R01": {
+          "keyCode": "BT_SEL 1",
+          "label": "BT 1",
+          "type": "basic"
+        },
+        "R02": {
+          "keyCode": "BT_SEL 2",
+          "label": "BT 2",
+          "type": "basic"
+        },
+        "R03": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R04": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L10": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L11": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L12": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L13": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L14": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R10": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R11": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R12": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R13": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R14": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L20": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L21": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L22": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L23": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L24": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R20": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R21": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R22": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R23": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R24": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L30": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L31": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L32": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L33": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L34": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "L35": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R30": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R31": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R32": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        },
+        "R33": {
+          "keyCode": "TRANS",
+          "label": "---",
+          "type": "transparent"
+        }
+      }
+    }
+  ],
+  "combos": [
+    {
+      "id": "dts-scroll",
+      "name": "scroll",
+      "keyPositions": [
+        "R12",
+        "R13"
+      ],
+      "binding": {
+        "keyCode": "MO(5)",
+        "label": "L5",
+        "type": "momentary"
+      },
+      "timeoutMs": 50,
+      "layers": []
+    },
+    {
+      "id": "dts-gesture",
+      "name": "gesture",
+      "keyPositions": [
+        "R02",
+        "R03"
+      ],
+      "binding": {
+        "keyCode": "MO(13)",
+        "label": "L13",
+        "type": "momentary"
+      },
+      "timeoutMs": 50,
+      "layers": []
+    },
+    {
+      "id": "nvee3u",
+      "name": "pair",
+      "keyPositions": [
+        "L00",
+        "L10",
+        "L20"
+      ],
+      "binding": {
+        "keyCode": "BT_SEL 5",
+        "label": "BT 5",
+        "type": "basic"
+      },
+      "timeoutMs": 50,
+      "layers": []
+    },
+    {
+      "id": "651gdv",
+      "name": "boot",
+      "keyPositions": [
+        "R03",
+        "L24",
+        "L04"
+      ],
+      "binding": {
+        "keyCode": "BOOTLOADER",
+        "label": "Boot",
+        "type": "basic"
+      },
+      "timeoutMs": 50,
+      "layers": []
+    }
+  ],
+  "macros": []
+}
